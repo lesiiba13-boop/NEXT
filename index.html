@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXT — Build What's Next</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">NEXT</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="/" class="navbar__links active">Home</a></li>
+                <li class="navbar__item"><a href="/tech.html" class="navbar__links">Tech</a></li>
+                <li class="navbar__item"><a href="/products.html" class="navbar__links">Products</a></li>
+                <li class="navbar__btn"><a href="/products.html" class="button">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__badge">Now in public beta ✦</div>
+            <h1 class="hero__heading">Build what comes<br><span class="hero__gradient">next.</span></h1>
+            <p class="hero__subtext">NEXT gives ambitious teams the infrastructure, tools, and intelligence to move faster than ever before. From idea to launch — without compromise.</p>
+            <div class="hero__cta">
+                <a href="/products.html" class="btn-primary">Start for free</a>
+                <a href="/tech.html" class="btn-ghost">See how it works →</a>
+            </div>
+            <div class="hero__social-proof">
+                <div class="hero__avatars">
+                    <div class="avatar" style="background:#f77062"></div>
+                    <div class="avatar" style="background:#4837ff"></div>
+                    <div class="avatar" style="background:#43c6ac"></div>
+                    <div class="avatar" style="background:#f7971e"></div>
+                    <div class="avatar" style="background:#a18cd1"></div>
+                </div>
+                <span>Trusted by 12,000+ teams worldwide</span>
+            </div>
+        </div>
+        <div class="hero__visual">
+            <div class="dashboard-card">
+                <div class="dash-header">
+                    <div class="dash-dots"><span class="dash-dot red"></span><span class="dash-dot yellow"></span><span class="dash-dot green"></span></div>
+                    <span class="dash-title">next · dashboard</span>
+                </div>
+                <div class="dash-metric">
+                    <div class="metric-item"><span class="metric-val">98.9%</span><span class="metric-label">Uptime</span></div>
+                    <div class="metric-item"><span class="metric-val">1.2ms</span><span class="metric-label">Latency</span></div>
+                    <div class="metric-item"><span class="metric-val">4.2M</span><span class="metric-label">API Calls</span></div>
+                </div>
+                <div class="dash-chart">
+                    <div class="bar-wrap">
+                        <div class="bar-item" style="height:40%"></div>
+                        <div class="bar-item" style="height:65%"></div>
+                        <div class="bar-item" style="height:45%"></div>
+                        <div class="bar-item" style="height:80%"></div>
+                        <div class="bar-item" style="height:55%"></div>
+                        <div class="bar-item" style="height:90%"></div>
+                        <div class="bar-item" style="height:70%"></div>
+                        <div class="bar-item highlight" style="height:100%"></div>
+                    </div>
+                </div>
+                <div class="dash-footer"><span class="status-dot"></span> All systems operational</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="logos">
+        <p class="logos__label">Trusted by teams at</p>
+        <div class="logos__row">
+            <span class="logo-name">Stripe</span>
+            <span class="logo-name">Vercel</span>
+            <span class="logo-name">Linear</span>
+            <span class="logo-name">Notion</span>
+            <span class="logo-name">Figma</span>
+            <span class="logo-name">Shopify</span>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="features__container">
+            <div class="features__header">
+                <p class="section-label">Why NEXT</p>
+                <h2>Everything you need.<br>Nothing you don't.</h2>
+            </div>
+            <div class="features__grid">
+                <div class="feature-card"><div class="feature-icon">⚡</div><h3>Blazing Fast APIs</h3><p>Sub-2ms response times with global edge deployment. Your users never wait — no matter where they are.</p></div>
+                <div class="feature-card"><div class="feature-icon">🔒</div><h3>Enterprise Security</h3><p>SOC 2 Type II certified. End-to-end encryption, SSO, RBAC, and audit logs out of the box.</p></div>
+                <div class="feature-card"><div class="feature-icon">📊</div><h3>Real-time Analytics</h3><p>Live dashboards, custom metrics, and alerting. Know exactly what your product is doing, always.</p></div>
+                <div class="feature-card"><div class="feature-icon">🔧</div><h3>Developer First</h3><p>SDKs for every major language, a CLI you'll love, and docs that actually make sense.</p></div>
+                <div class="feature-card"><div class="feature-icon">🌐</div><h3>Global Infrastructure</h3><p>Deploy to 30+ regions with one command. Automatic failover, zero config scaling.</p></div>
+                <div class="feature-card"><div class="feature-icon">🤝</div><h3>Collaboration Built In</h3><p>Teams, workspaces, permissions, and shared environments — designed for how modern teams work.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-strip">
+        <div class="cta-strip__container">
+            <h2>Ready to build what's next?</h2>
+            <p>Join thousands of teams shipping faster with NEXT. Free to start, scales with you.</p>
+            <a href="/products.html" class="btn-primary btn-lg">Get started free</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__brand">
+                <a href="/" class="footer__logo">NEXT</a>
+                <p>The platform for teams building what comes next. Fast, secure, and built to scale.</p>
+            </div>
+            <div class="footer__links">
+                <div class="footer__col"><h4>Product</h4><a href="/tech.html">Technology</a><a href="/products.html">Pricing</a><a href="#">Changelog</a><a href="#">Roadmap</a></div>
+                <div class="footer__col"><h4>Company</h4><a href="#">About</a><a href="#">Blog</a><a href="#">Careers</a><a href="#">Press</a></div>
+                <div class="footer__col"><h4>Legal</h4><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Security</a><a href="#">Cookies</a></div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <span>© 2026 NEXT Inc. All rights reserved.</span>
+            <div class="footer__socials"><a href="#">Twitter</a><a href="#">GitHub</a><a href="#">LinkedIn</a></div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
